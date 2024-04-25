@@ -1,0 +1,272 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#wrapper {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.conatiner {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #270082;
+  position: sticky;
+}
+
+nav a {
+  text-decoration: none;
+  color: azure;
+}
+.head {
+  font-size: x-large;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 2rem;
+  color: white;
+}
+
+.sec-1 {
+  background-image: url(hero_image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+}
+
+.desc {
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20%;
+}
+
+.desc h1 {
+  font-size: 77px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.desc h1 + div {
+  font-size: 37px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.sec-2 {
+  background-color: #281154;
+  height: 78%;
+}
+/*.sec2 .music+span{
+    background-color: white;
+}*/
+.music {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+.music h2 {
+  font-size: 44px;
+  font-weight: bolder;
+  padding-bottom: 1rem;
+}
+
+.music h2 + div {
+  font-size: 30px;
+  font-weight: bolder;
+  padding-bottom: 1rem;
+}
+
+.desc-music {
+  font-size: 20px;
+  font-weight: 200;
+  padding-bottom: 2rem;
+}
+
+.button {
+  background-color: red;
+  padding: 15px;
+  color: white;
+  font-size: x-large;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.music p {
+  padding-top: 2rem;
+  color: rgb(171, 164, 164);
+}
+.musiclogo {
+  display: flex;
+  justify-content: center;
+}
+
+.sec-3 {
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding-top: 27rem;
+}
+
+.content h3 {
+  color: black;
+  font-size: 30px;
+  font-weight: 900;
+  padding-bottom: 2rem;
+}
+
+.desc-3 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 4rem;
+}
+.sec-3logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bttn {
+  background-color: #270082;
+  color: #fff;
+  font-size: large;
+  font-weight: 100;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.mac {
+  padding-top: 4rem;
+}
+
+.sec-4 {
+  margin-top: 30%;
+  background-image: url(video.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75%;
+  position: relative;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10%;
+}
+.box h3 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.desc-vd {
+  font-size: 20px;
+  font-weight: 200;
+  padding-bottom: 2rem;
+  color: white;
+}
+
+.sec-5 {
+  height: 60%;
+  width: 100%;
+  margin-top: 7%;
+}
+
+.box2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  line-height: 1.6;
+}
+
+.sec-5 h4 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.sec-5 p,
+span {
+  font-size: 20px;
+  font-weight: 200;
+  padding-bottom: 2rem;
+  color: black;
+}
+.line {
+  border: 0.1px solid gray;
+  width: 75%;
+}
+
+.Reedem {
+  margin-top: 2rem;
+}
+
+.foot {
+  background-color: #1b0058;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 30%;
+  color: white;
+}
+
+.foot h4 {
+  padding-top: 3rem;
+  font-size: larger;
+  font-weight: 400;
+}
+.line1 {
+  border: 0.1px solid gray;
+  width: 20rem;
+}
+.foot ul {
+  padding-top: 1rem;
+  list-style-type: none;
+  font-size: medium;
+}
+
+.footlow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #270082;
+  height: 43px;
+ color: white;
+}
